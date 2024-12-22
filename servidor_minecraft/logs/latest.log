@@ -1,113 +1,110 @@
-[15:09:12] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[15:09:12] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[15:09:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:09:14] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:14] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:14] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:14] [DefaultMetadataResolver-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-1-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:15] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:16] [DefaultMetadataResolver-1-1/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:16] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:09:16] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[15:09:16] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
+[17:20:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[17:20:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[17:20:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:20:45] [DefaultMetadataResolver-0-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:45] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:45] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:45] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-0-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-0-1/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-0-0/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-1-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-1-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:46] [DefaultMetadataResolver-1-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:47] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:47] [DefaultMetadataResolver-1-3/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:47] [DefaultMetadataResolver-1-2/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
+[17:20:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[17:20:47] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (2):
  - Bending (3.9.0), Origins (mc1.21.1-v1.3.0)
-[15:09:16] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[17:20:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - Chunky (1.4.28), Geyser-Spigot (2.6.0-SNAPSHOT), HomesPlugin (1.4), PhantomWorlds (2.0.12), ViaVersion (5.2.0), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[15:09:16] [ServerMain/ERROR]: [io.github.dueris.originspaper.Bootstrap] Eclipse was not found in classpath! Please install from modrinth : https://modrinth.com/plugin/eclipse-mixin
-[15:09:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:09:22] [ServerMain/INFO]: Found new data pack file/KeepSomeInventory-v2.0.1.zip, loading it automatically
-[15:09:22] [ServerMain/INFO]: Found new data pack file/Structory_1.21_v1.3.9.zip, loading it automatically
-[15:09:22] [ServerMain/INFO]: Found new data pack file/Timber Strike v3.0 1.20.5 - 1.21.4.zip, loading it automatically
-[15:09:26] [Worker-Main-1/WARN]: Invalid path in datapack: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
-[15:09:27] [ServerMain/INFO]: Loaded 1302 recipes
-[15:09:27] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[15:09:27] [ServerMain/INFO]: Loaded 1466 advancements
-[15:09:27] [Server thread/INFO]: Starting minecraft server version 1.21
-[15:09:27] [Server thread/INFO]: Loading properties
-[15:09:27] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[15:09:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:09:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:09:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:09:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:09:29] [Server thread/INFO]: Default game type: SURVIVAL
-[15:09:29] [Server thread/INFO]: Generating keypair
-[15:09:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:09:29] [Server thread/INFO]: Using epoll channel type
-[15:09:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:09:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:09:32] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:09:34] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:09:35] [Server thread/INFO]: [floodgate] Took 2,410ms to boot Floodgate
-[15:09:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[15:09:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[15:09:36] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:09:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:09:38] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[15:09:38] [Server thread/INFO]: [Bending] Loading server plugin Bending v3.9.0
-[15:09:38] [Server thread/INFO]: [HomesPlugin] Loading server plugin HomesPlugin v1.4
-[15:09:38] [Server thread/INFO]: [Origins] Loading server plugin Origins vmc1.21.1-v1.3.0
-[15:09:38] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[15:09:41] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:09:41] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:09:41] [Server thread/INFO]: [PhantomWorlds] Loading server plugin PhantomWorlds v2.0.12
-[15:09:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:09:41] [Server thread/INFO]: [PhantomWorlds] Enabling PhantomWorlds v2.0.12
-[15:09:41] [Server thread/INFO]: [PhantomWorlds] Starting up Placeholder Registration...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Checking compatibility with server...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Checking for backup directory...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Loading files...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Loading file SETTINGS...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Loading file ADVANCED_SETTINGS...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Loading file MESSAGES...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Loading file DATA...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Registering commands...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Registering listeners...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Running misc startup procedures...
-[15:09:42] [Server thread/INFO]: [PhantomWorlds] Start-up complete (took 554607757000000ms)
-[15:09:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:09:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:09:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:09:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:09:42] [Server thread/INFO]: Preparing level "world"
-[15:09:43] [Server thread/INFO]: [PhantomWorlds] Loading worlds...
-[15:09:43] [Server thread/INFO]: [PhantomWorlds] Loading managed worlds...
-[15:09:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:09:45] [Server thread/INFO]: Time elapsed: 1974 ms
-[15:09:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:09:46] [Server thread/INFO]: Time elapsed: 351 ms
-[15:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:09:46] [Server thread/INFO]: Time elapsed: 268 ms
-[15:09:46] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:09:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[15:09:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[15:09:48] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[15:09:48] [Server thread/INFO]: [Bending] Enabling Bending v3.9.0
-[15:09:49] [Server thread/INFO]: [Bending] Successfully loaded native adapter for version 1.21
-[15:09:50] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Starting...
-[15:09:51] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] bending-hikari - Added connection conn0: url=jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending user=BENDING
-[15:09:51] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Start completed.
-[15:09:51] [/INFO]: [Bending] Registered translations: [en]
-[15:09:52] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending (H2 2.2)
-[15:09:52] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 4 migrations (execution time 00:00.076s)
-[15:09:52] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 4
-[15:09:52] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
-[15:09:53] [Server thread/INFO]: [Bending] Found 67 registered abilities (9 Sequences)!
-[15:09:53] [Server thread/INFO]: [Bending] Found 228 registered collisions!
-[15:09:53] [Server thread/INFO]: [Bending] Registered protection plugins: []
-[15:09:53] [Server thread/INFO]: [Bending] Registered translations: [en]
-[15:09:53] [Server thread/INFO]: [HomesPlugin] Enabling HomesPlugin v1.4
-[15:09:53] [Server thread/ERROR]: [HomesPlugin] AshLib plugin is missing! Please download and install AshLib to run HomesPlugin. (can be downloaded from: https://www.spigotmc.org/resources/ashlib.118282/ )
-[15:09:53] [Server thread/INFO]: [HomesPlugin] Disabling HomesPlugin v1.4
-[15:09:53] [Server thread/INFO]: [Origins] Enabling Origins vmc1.21.1-v1.3.0
-[15:09:54] [Server thread/WARN]: [GlowingEntities] [GlowingEntities] Loaded not matching version of the mappings for your server version
-[15:09:54] [Server thread/ERROR]: Error occurred while enabling Origins vmc1.21.1-v1.3.0 (Is it up to date?)
+[17:20:47] [ServerMain/ERROR]: [io.github.dueris.originspaper.Bootstrap] Eclipse was not found in classpath! Please install from modrinth : https://modrinth.com/plugin/eclipse-mixin
+[17:20:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:20:57] [Worker-Main-1/WARN]: Invalid path in datapack: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
+[17:20:58] [ServerMain/INFO]: Loaded 1302 recipes
+[17:20:58] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[17:20:58] [ServerMain/INFO]: Loaded 1466 advancements
+[17:20:58] [Server thread/INFO]: Starting minecraft server version 1.21
+[17:20:58] [Server thread/INFO]: Loading properties
+[17:20:58] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[17:20:59] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:20:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:20:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:21:00] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[17:21:00] [Server thread/INFO]: Default game type: SURVIVAL
+[17:21:00] [Server thread/INFO]: Generating keypair
+[17:21:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:21:00] [Server thread/INFO]: Using epoll channel type
+[17:21:00] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:21:00] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:21:02] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:21:05] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[17:21:05] [Server thread/INFO]: [floodgate] Took 2,434ms to boot Floodgate
+[17:21:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[17:21:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[17:21:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[17:21:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[17:21:08] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[17:21:08] [Server thread/INFO]: [Bending] Loading server plugin Bending v3.9.0
+[17:21:09] [Server thread/INFO]: [HomesPlugin] Loading server plugin HomesPlugin v1.4
+[17:21:09] [Server thread/INFO]: [Origins] Loading server plugin Origins vmc1.21.1-v1.3.0
+[17:21:09] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[17:21:11] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[17:21:11] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading server plugin PhantomWorlds v2.0.12
+[17:21:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Enabling PhantomWorlds v2.0.12
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Starting up Placeholder Registration...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Checking compatibility with server...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Checking for backup directory...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading files...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading file SETTINGS...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading file ADVANCED_SETTINGS...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading file MESSAGES...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Loading file DATA...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Registering commands...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Registering listeners...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Running misc startup procedures...
+[17:21:11] [Server thread/INFO]: [PhantomWorlds] Start-up complete (took 555803285000000ms)
+[17:21:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:21:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:21:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:21:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:21:11] [Server thread/INFO]: Preparing level "world"
+[17:21:12] [Server thread/INFO]: [PhantomWorlds] Loading worlds...
+[17:21:12] [Server thread/INFO]: [PhantomWorlds] Loading managed worlds...
+[17:21:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:21:15] [Server thread/INFO]: Time elapsed: 1922 ms
+[17:21:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:21:15] [Server thread/INFO]: Time elapsed: 289 ms
+[17:21:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:21:15] [Server thread/INFO]: Time elapsed: 230 ms
+[17:21:15] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[17:21:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[17:21:16] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[17:21:16] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[17:21:17] [Server thread/INFO]: [Bending] Enabling Bending v3.9.0
+[17:21:18] [Server thread/INFO]: [Bending] Successfully loaded native adapter for version 1.21
+[17:21:18] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Starting...
+[17:21:19] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] bending-hikari - Added connection conn0: url=jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending user=BENDING
+[17:21:19] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Start completed.
+[17:21:20] [/INFO]: [Bending] Registered translations: [en]
+[17:21:20] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending (H2 2.2)
+[17:21:20] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 4 migrations (execution time 00:00.062s)
+[17:21:21] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 4
+[17:21:21] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
+[17:21:21] [Server thread/INFO]: [Bending] Found 67 registered abilities (9 Sequences)!
+[17:21:21] [Server thread/INFO]: [Bending] Found 228 registered collisions!
+[17:21:21] [Server thread/INFO]: [Bending] Registered protection plugins: []
+[17:21:21] [Server thread/INFO]: [Bending] Registered translations: [en]
+[17:21:22] [Server thread/INFO]: [HomesPlugin] Enabling HomesPlugin v1.4
+[17:21:22] [Server thread/ERROR]: [HomesPlugin] AshLib plugin is missing! Please download and install AshLib to run HomesPlugin. (can be downloaded from: https://www.spigotmc.org/resources/ashlib.118282/ )
+[17:21:22] [Server thread/INFO]: [HomesPlugin] Disabling HomesPlugin v1.4
+[17:21:22] [Server thread/INFO]: [Origins] Enabling Origins vmc1.21.1-v1.3.0
+[17:21:22] [Server thread/WARN]: [GlowingEntities] [GlowingEntities] Loaded not matching version of the mappings for your server version
+[17:21:22] [Server thread/ERROR]: Error occurred while enabling Origins vmc1.21.1-v1.3.0 (Is it up to date?)
 java.lang.RuntimeException: An unexpected error occurred when parsing the OriginsPaper renderer!
 	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.texture.TexturesImpl.init(TexturesImpl.java:73) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
 	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.MinecraftClient.init(MinecraftClient.java:25) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
@@ -127,297 +124,30 @@ java.lang.RuntimeException: An unexpected error occurred when parsing the Origin
 Caused by: java.lang.NullPointerException: Cannot invoke "io.papermc.paper.plugin.bootstrap.BootstrapContext.getPluginSource()" because "bootContext" is null
 	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.texture.TexturesImpl.init(TexturesImpl.java:31) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
 	... 14 more
-[15:09:54] [Server thread/INFO]: [Origins] Disabling Origins vmc1.21.1-v1.3.0
-[15:09:54] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[15:09:55] [Server thread/INFO]: [spark] Starting background profiler...
-[15:09:55] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:09:56] [Server thread/INFO]: [Geyser-Spigot] 
-[15:09:56] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b732 (git-master-54bdb63)
-[15:09:56] [Server thread/INFO]: [Geyser-Spigot] 
-[15:09:56] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:10:10] [Server thread/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:10:11] [Server thread/INFO]: [Geyser-Spigot] Done (15.078s)! Run /geyser help for help!
-[15:10:11] [Server thread/INFO]: Done preparing level "world" (29.158s)
-[15:10:11] [Server thread/INFO]: Running delayed init tasks
-[15:10:11] [Server thread/INFO]: Done (60.721s)! For help, type "help"
-[15:10:11] [Server thread/INFO]: Timings Reset
-[15:10:11] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:10:57] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
-[15:10:57] [Server thread/INFO]: Reemolke joined the game
-[15:10:58] [Server thread/INFO]: Reemolke[/127.7.45.0:60691] logged in with entity id 65 at ([world]-265.50570263928597, 89.0, 462.6011465069277)
-[15:11:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2654ms or 53 ticks behind
-[15:11:04] [Server thread/INFO]: Reemolke issued server command: /
-[15:11:15] [Server thread/INFO]: Reemolke issued server command: /datapack list
-[15:11:20] [Server thread/INFO]: Reemolke issued server command: /function spellbound_weapons:_item_list
-[15:11:20] [Server thread/INFO]: [Reemolke: Running function spellbound_weapons:_item_list]
-[15:11:27] [Server thread/INFO]: Reemolke issued server command: /function timberstrike:config
-[15:11:27] [Server thread/INFO]: [Reemolke: Running function timberstrike:config]
-[15:11:57] [Server thread/INFO]: Reemolke issued server command: /reload
-[15:11:57] [Server thread/INFO]: Reemolke: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[15:12:01] [Server thread/INFO]: Reemolke issued server command: /reload confirm
-[15:12:01] [Server thread/INFO]: Reemolke: Please note that this command is not supported and may cause issues when using some plugins.
-[15:12:01] [Server thread/INFO]: Reemolke: If you encounter any issues please use the /stop command to restart your server.
-[15:12:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:12:01] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:12:01] [Server thread/INFO]: [PhantomWorlds] Disabling PhantomWorlds v2.0.12
-[15:12:01] [Server thread/INFO]: [PhantomWorlds] Shut-down complete (took 7316000000ms)
-[15:12:01] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[15:12:01] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[15:12:01] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[15:12:01] [Server thread/INFO]: [Bending] Disabling Bending v3.9.0
-[15:12:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Shutdown initiated...
-[15:12:01] [WebSocketConnectReadThread-112/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[15:12:01] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Shutdown completed.
-[15:12:01] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[15:12:01] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[15:12:01] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
-[15:12:01] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[15:12:01] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:12:02] [Worker-Main-1/WARN]: Invalid path in datapack: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
-[15:12:03] [Server thread/INFO]: Loaded 1302 recipes
-[15:12:03] [Server thread/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[15:12:03] [Server thread/INFO]: Loaded 1466 advancements
-[15:12:03] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:12:03] [Paper Async Command Builder Thread Pool - 1/ERROR]: Caught previously unhandled exception :
-[15:12:03] [Paper Async Command Builder Thread Pool - 1/ERROR]: Paper Async Command Builder Thread Pool - 1
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:12:04] [DefaultMetadataResolver-2-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-0/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-2-0/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client-jsoup/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-0/INFO]: [MavenLibraryResolver] Downloading https://repo.papermc.io/repository/maven-public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/groups/public/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-2/INFO]: [MavenLibraryResolver] Downloading https://repo.opencollab.dev/main/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-3/INFO]: [MavenLibraryResolver] Downloading https://repo.extendedclip.com/content/repositories/placeholderapi/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-2/INFO]: [MavenLibraryResolver] Downloading https://repo.codemc.org/repository/maven-releases/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-2/INFO]: [MavenLibraryResolver] Downloading https://maven.quiltmc.org/repository/release/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:04] [DefaultMetadataResolver-3-1/INFO]: [MavenLibraryResolver] Downloading https://maven.fabricmc.net/org/mineskin/java-client/2.0.0-SNAPSHOT/maven-metadata.xml
-[15:12:05] [Server thread/INFO]: [PluginInitializerManager] Initialized 8 plugins
-[15:12:05] [Server thread/INFO]: [PluginInitializerManager] Paper plugins (2):
- - Bending (3.9.0), Origins (mc1.21.1-v1.3.0)
-[15:12:05] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - Chunky (1.4.28), Geyser-Spigot (2.6.0-SNAPSHOT), HomesPlugin (1.4), PhantomWorlds (2.0.12), ViaVersion (5.2.0), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[15:12:05] [Server thread/WARN]: [PluginInitializerManager] ======== WARNING ========
-[15:12:05] [Server thread/WARN]: [PluginInitializerManager] You are reloading while having Paper plugins installed on your server.
-[15:12:05] [Server thread/WARN]: [PluginInitializerManager] Paper plugins do NOT support being reloaded. This will cause some unexpected issues.
-[15:12:05] [Server thread/WARN]: [PluginInitializerManager] =========================
-[15:12:06] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:12:07] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[15:12:07] [Server thread/INFO]: [floodgate] Took 1,486ms to boot Floodgate
-[15:12:07] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[15:12:07] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[15:12:07] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
-[15:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[15:12:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[15:12:10] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[15:12:10] [Server thread/INFO]: [Bending] Loading server plugin Bending v3.9.0
-[15:12:11] [Server thread/INFO]: [HomesPlugin] Loading server plugin HomesPlugin v1.4
-[15:12:11] [Server thread/INFO]: [Origins] Loading server plugin Origins vmc1.21.1-v1.3.0
-[15:12:11] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[15:12:12] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[15:12:12] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading server plugin PhantomWorlds v2.0.12
-[15:12:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Enabling PhantomWorlds v2.0.12
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Starting up Placeholder Registration...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Checking compatibility with server...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Checking for backup directory...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading files...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading file SETTINGS...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading file ADVANCED_SETTINGS...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading file MESSAGES...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Loading file DATA...
-[15:12:12] [Server thread/INFO]: [PhantomWorlds] Registering commands...
-[15:12:13] [Server thread/INFO]: [PhantomWorlds] Registering listeners...
-[15:12:13] [Server thread/INFO]: [PhantomWorlds] Running misc startup procedures...
-[15:12:13] [Server thread/INFO]: [PhantomWorlds] Start-up complete (took 348107627000000ms)
-[15:12:13] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:12:13] [Server thread/WARN]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
-[15:12:13] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1055)
-[15:12:13] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:284)
-[15:12:13] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
-[15:12:13] [Server thread/WARN]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
-[15:12:13] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
-[15:12:13] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
-[15:12:13] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
-[15:12:13] [Server thread/WARN]: 	at floodgate-spigot.jar//org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288)
-[15:12:13] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202)
-[15:12:13] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1132)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:1027)
-[15:12:13] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59)
-[15:12:13] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91)
-[15:12:13] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:350)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:332)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304)
-[15:12:13] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330)
-[15:12:13] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-[15:12:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[15:12:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[15:12:14] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[15:12:14] [Server thread/INFO]: [Bending] Enabling Bending v3.9.0
-[15:12:14] [Server thread/INFO]: [Bending] Successfully loaded native adapter for version 1.21
-[15:12:14] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Starting...
-[15:12:14] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] bending-hikari - Added connection conn0: url=jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending user=BENDING
-[15:12:15] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Start completed.
-[15:12:15] [Server thread/INFO]: [org.flywaydb.core.FlywayExecutor] Database: jdbc:h2:/workspaces/megacraft/servidor_minecraft/plugins/Bending/data/h2/bending (H2 2.2)
-[15:12:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbValidate] Successfully validated 4 migrations (execution time 00:00.029s)
-[15:12:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Current version of schema "PUBLIC": 4
-[15:12:15] [Server thread/INFO]: [org.flywaydb.core.internal.command.DbMigrate] Schema "PUBLIC" is up to date. No migration necessary.
-[15:12:15] [Server thread/INFO]: [Bending] Found 67 registered abilities (9 Sequences)!
-[15:12:15] [Server thread/INFO]: [Bending] Found 228 registered collisions!
-[15:12:15] [Server thread/INFO]: [Bending] Registered protection plugins: []
-[15:12:15] [Server thread/INFO]: [Bending] Registered translations: [en]
-[15:12:16] [Server thread/INFO]: [HomesPlugin] Enabling HomesPlugin v1.4
-[15:12:16] [Server thread/ERROR]: [HomesPlugin] AshLib plugin is missing! Please download and install AshLib to run HomesPlugin. (can be downloaded from: https://www.spigotmc.org/resources/ashlib.118282/ )
-[15:12:16] [Server thread/INFO]: [HomesPlugin] Disabling HomesPlugin v1.4
-[15:12:16] [Server thread/INFO]: [Origins] Enabling Origins vmc1.21.1-v1.3.0
-[15:12:16] [Server thread/WARN]: [GlowingEntities] [GlowingEntities] Loaded not matching version of the mappings for your server version
-[15:12:16] [Server thread/ERROR]: Error occurred while enabling Origins vmc1.21.1-v1.3.0 (Is it up to date?)
-java.lang.RuntimeException: An unexpected error occurred when parsing the OriginsPaper renderer!
-	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.texture.TexturesImpl.init(TexturesImpl.java:73) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
-	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.MinecraftClient.init(MinecraftClient.java:25) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
-	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.plugin.OriginsPlugin.onEnable(OriginsPlugin.java:41) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.craftbukkit.CraftServer.reload(CraftServer.java:1132) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at org.bukkit.Bukkit.reload(Bukkit.java:1027) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:59) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2147) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2121) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:114) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1629) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "io.papermc.paper.plugin.bootstrap.BootstrapContext.getPluginSource()" because "bootContext" is null
-	at originspaper-mc1.21.1-v1.3.0.jar/io.github.dueris.originspaper.client.texture.TexturesImpl.init(TexturesImpl.java:31) ~[originspaper-mc1.21.1-v1.3.0.jar:?]
-	... 37 more
-[15:12:16] [Server thread/INFO]: [Origins] Disabling Origins vmc1.21.1-v1.3.0
-[15:12:16] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[15:12:16] [/INFO]: [Bending] Registered translations: [en]
-[15:12:17] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
-[15:12:17] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
-java.util.ConcurrentModificationException: null
-	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
-	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
-	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:12:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:12:17] [Server thread/INFO]: [Geyser-Spigot] 
-[15:12:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b732 (git-master-54bdb63)
-[15:12:17] [Server thread/INFO]: [Geyser-Spigot] 
-[15:12:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[15:12:25] [epollEventLoopGroup-9-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[15:12:25] [Server thread/INFO]: [Geyser-Spigot] Done (8.55s)! Run /geyser help for help!
-[15:12:26] [Server thread/INFO]: Reemolke: Reload complete.
-[15:12:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24505ms or 490 ticks behind
-[15:12:26] [Server thread/INFO]: Timings Reset
-[15:12:26] [Craft Scheduler Thread - 10 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[15:12:44] [Server thread/INFO]: Reemolke lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IllegalStateException: zip file closed
-[15:12:44] [Server thread/INFO]: Reemolke left the game
-[15:12:55] [User Authenticator #1/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
-[15:12:55] [Server thread/INFO]: Reemolke joined the game
-[15:12:55] [Server thread/INFO]: Reemolke[/127.7.45.0:46557] logged in with entity id 470 at ([world]-284.89932597561847, 84.0, 456.5855736785922)
-[15:14:06] [Server thread/INFO]: Reemolke has made the advancement [Monster Hunter]
-[15:15:23] [Server thread/INFO]: Reemolke has made the advancement [Stone Age]
-[15:15:48] [Server thread/INFO]: Reemolke lost connection: Disconnected
-[15:15:48] [Server thread/INFO]: Reemolke left the game
-[15:15:54] [Server thread/INFO]: Stopping the server
-[15:15:54] [Server thread/INFO]: Stopping server
-[15:15:54] [Server thread/INFO]: [PhantomWorlds] Disabling PhantomWorlds v2.0.12
-[15:15:54] [Server thread/INFO]: [PhantomWorlds] Shut-down complete (took 7137000000ms)
-[15:15:54] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.6.0-SNAPSHOT
-[15:15:54] [Server thread/INFO]: [Geyser-Spigot] Shutting down Geyser.
-[15:15:54] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
-[15:15:54] [Server thread/INFO]: [Bending] Disabling Bending v3.9.0
-[15:15:54] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Shutdown initiated...
-[15:15:54] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] bending-hikari - Shutdown completed.
-[15:15:54] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.28
-[15:15:54] [WebSocketConnectReadThread-226/INFO]: [Geyser-Spigot] The skin uploader has been closed
-[15:15:54] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.2.0
-[15:15:54] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[15:15:54] [Server thread/INFO]: [floodgate] Disabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[15:15:54] [Server thread/INFO]: Saving players
-[15:15:55] [Server thread/INFO]: Saving worlds
-[15:15:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:15:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[15:15:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[15:15:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Saved 916 block chunks, 731 entity chunks, 1 poi chunks in world 'world' in 1.83s
-[15:15:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[15:15:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[15:15:56] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[15:15:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:15:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:15:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:15:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:21:22] [Server thread/INFO]: [Origins] Disabling Origins vmc1.21.1-v1.3.0
+[17:21:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[17:21:23] [Server thread/INFO]: [spark] Starting background profiler...
+[17:21:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:21:24] [Server thread/INFO]: [Geyser-Spigot] 
+[17:21:24] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b732 (git-master-54bdb63)
+[17:21:24] [Server thread/INFO]: [Geyser-Spigot] 
+[17:21:24] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[17:21:39] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[17:21:39] [Server thread/INFO]: [Geyser-Spigot] Done (15.2s)! Run /geyser help for help!
+[17:21:40] [Server thread/INFO]: Done preparing level "world" (28.200s)
+[17:21:40] [Server thread/INFO]: Running delayed init tasks
+[17:21:40] [Server thread/INFO]: Done (57.612s)! For help, type "help"
+[17:21:40] [Server thread/INFO]: Timings Reset
+[17:21:40] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:21:40] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
+[17:21:40] [Server thread/INFO]: Reemolke (/127.133.7.121:44477) lost connection: Disconnected
+[17:21:51] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
+[17:21:53] [Server thread/INFO]: Reemolke joined the game
+[17:21:53] [Server thread/INFO]: Reemolke[/127.133.7.121:44297] logged in with entity id 101 at ([world]-188.96109620326354, 64.0, 298.20585828592374)
+[17:22:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SandSubset2596
+[17:22:32] [localSession-7-2/INFO]: [Geyser-Spigot] SandSubset2596 (logged in as: SandSubset2596) has connected to the Java server
+[17:22:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .SandSubset2596 joined (UUID: 00000000-0000-0000-0009-01f1d729612b)
+[17:22:33] [Server thread/INFO]: .SandSubset2596 joined the game
+[17:22:33] [Server thread/INFO]: .SandSubset2596[/127.0.0.1:0] logged in with entity id 365 at ([world]-207.97, 71.0, 296.93906)
+[17:23:17] [Server thread/INFO]: Reemolke has made the advancement [Getting an Upgrade]
+[17:25:44] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
