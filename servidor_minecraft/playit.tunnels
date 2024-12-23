@@ -1,8 +1,8 @@
 {
   "tcp_alloc": {
     "allowed": 6,
-    "claimed": 1,
-    "desired": 1
+    "claimed": 2,
+    "desired": 2
   },
   "tunnels": [
     {
@@ -59,7 +59,7 @@
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "22283c0d-9611-4d40-a10b-90467ce80c1a",
+          "id": "5cc8952c-8d4b-4b7d-9e60-50d857bb1719",
           "ip_hostname": "24.ip.gl.ply.gg",
           "ip_type": "both",
           "port_end": 2443,
@@ -71,12 +71,12 @@
         },
         "status": "allocated"
       },
-      "created_at": "2024-12-15T22:08:17.908563Z",
+      "created_at": "2024-12-22T18:16:50.671785Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "1a7091ff-fe2b-4674-a4d6-08b4b06c67ca",
+      "id": "8d368df4-7c85-42e8-9f18-aa5dfe34e0e3",
       "name": "Minecraft Bedrock",
       "origin": {
         "data": {
@@ -94,6 +94,51 @@
       },
       "region": "global",
       "tunnel_type": "minecraft-bedrock"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "recently-parameter.gl.joinmc.link",
+          "assigned_srv": "recently-parameter.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "6c9e1cd0-0ec6-4620-9671-799b60e4097d",
+          "ip_hostname": "24.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 41528,
+          "port_start": 41527,
+          "region": "global",
+          "static_ip4": "147.185.221.24",
+          "static_ip6": "2602:fbaf:0:1::18",
+          "tunnel_ip": "2602:fbaf:0:1::18"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-12-22T18:36:08.470170Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "dbaa2ad7-9af2-4a96-9249-18a891ae6dc2",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "default"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
     }
   ],
   "udp_alloc": {
