@@ -1498,3 +1498,10 @@ java.lang.NoSuchMethodError: 'net.minecraft.core.RegistryAccess$Frozen net.minec
 [11:41:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
 [11:42:30] [Server thread/INFO]: Reemolke issued server command: /tp Reemolke .SandSubset2596
 [11:42:30] [Server thread/INFO]: [Reemolke: Teleported Reemolke to .SandSubset2596]
+[11:48:33] [Server thread/INFO]: Reemolke issued server command: /function backpacks:bp/summon/id with storage backpacks:blacklisted_items
+[11:48:33] [Server thread/INFO]: [Reemolke: Running function backpacks:bp/summon/id]
+[11:48:49] [Server thread/WARN]: .SandSubset2596 moved wrongly!
+[11:49:55] [Server thread/INFO]: Reemolke issued server command: /datapack list
+[11:50:05] [Server thread/INFO]: Reemolke issued server command: /reload
+[11:50:05] [Server thread/INFO]: Reemolke: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[11:56:03] [Server thread/WARN]: .SandSubset2596 moved wrongly!
