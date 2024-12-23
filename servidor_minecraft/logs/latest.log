@@ -1490,3 +1490,8 @@ java.lang.NoSuchMethodError: 'net.minecraft.core.RegistryAccess$Frozen net.minec
 [11:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
 [11:24:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2688ms or 53 ticks behind
 [11:24:59] [Server thread/INFO]: Reemolke issued server command: /home casa
+[11:26:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Reemolke> a
+[11:33:09] [Server thread/INFO]: Reemolke issued server command: /weather clear
+[11:33:09] [Server thread/INFO]: [Reemolke: Set the weather to clear]
+[11:35:24] [Server thread/INFO]: Reemolke has made the advancement [Sweet Dreams]
+[11:35:27] [Server thread/INFO]: .SandSubset2596 has made the advancement [Sweet Dreams]
