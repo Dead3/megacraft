@@ -1472,3 +1472,4 @@ java.lang.NoSuchMethodError: 'net.minecraft.core.RegistryAccess$Frozen net.minec
 [10:57:54] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
 [10:57:55] [Server thread/INFO]: Reemolke joined the game
 [10:57:55] [Server thread/INFO]: Reemolke[/127.133.7.121:35291] logged in with entity id 421 at ([world]-689.6797124815898, 64.0, 231.0278600691214)
+[11:09:37] [Server thread/INFO]: Reemolke issued server command: /home
