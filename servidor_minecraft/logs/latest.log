@@ -1,15 +1,14 @@
-[11:16:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[11:16:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
-[11:16:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[11:16:32] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[11:16:32] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[10:55:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[10:55:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[10:55:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[10:55:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[10:55:40] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - FancyNpcs (2.4.1)
-[11:16:32] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[10:55:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - Chunky (1.4.28), CustomNPCs (1.7.1), Geyser-Spigot (2.6.0-SNAPSHOT), InteractionVisualizer (1.18.13.0), Origins-Fantasy (1.0.23), Origins-Reborn (2.4.8), PhantomWorlds (2.0.12), Pl3xMap (1.21.4-517), SetHome (2.0), ViaVersion (5.2.0), WildRTP (2.6.1), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
-[11:16:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[11:16:43] [ServerMain/INFO]: Found new data pack file/1.2-backpacks_dtpk-1.21.2-1.21.3.zip, loading it automatically
-[11:16:49] [Worker-Main-1/WARN]: Invalid path in datapack: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
-[11:16:49] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/black
+[10:55:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:55:58] [Worker-Main-1/WARN]: Invalid path in datapack: spellbound_weapons:advancement/magmus_charger copy.json, ignoring
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/black
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:black_dye"; Second: Not a JSON object: "minecraft:black_dye"; Not a JSON object: "minecraft:black_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:black_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951631}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -25,7 +24,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/3
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/3
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:diamond"; Second: Not a JSON object: "minecraft:diamond"; Not a JSON object: "minecraft:diamond"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; Failed to parse either. First: Not a json array: "minecraft:chest"; Second: Not a JSON object: "minecraft:chest"; Not a JSON object: "minecraft:chest"
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -41,7 +40,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/2
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/2
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:iron_ingot"; Second: Not a JSON object: "minecraft:iron_ingot"; Not a JSON object: "minecraft:iron_ingot"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; Failed to parse either. First: Not a json array: "minecraft:chest"; Second: Not a JSON object: "minecraft:chest"; Not a JSON object: "minecraft:chest"
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -57,7 +56,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/4
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/upgrade/4
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:netherite_ingot"; Second: Not a JSON object: "minecraft:netherite_ingot"; Not a JSON object: "minecraft:netherite_ingot"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; Failed to parse either. First: Not a json array: "minecraft:netherite_upgrade_smithing_template"; Second: Not a JSON object: "minecraft:netherite_upgrade_smithing_template"; Not a JSON object: "minecraft:netherite_upgrade_smithing_template"
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -73,7 +72,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/autumnal
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/autumnal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:sweet_berries"; Second: Not a JSON object: "minecraft:sweet_berries"; Not a JSON object: "minecraft:sweet_berries"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:sweet_berries","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951648}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -89,7 +88,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:crafting_table/small
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:crafting_table/small
 com.google.gson.JsonParseException: Map entry 'x' : Failed to parse either. First: Not a json array: "minecraft:leather"; Second: Not a JSON object: "minecraft:leather"; Not a JSON object: "minecraft:leather"
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -105,7 +104,7 @@ com.google.gson.JsonParseException: Map entry 'x' : Failed to parse either. Firs
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/white
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/white
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:white_dye"; Second: Not a JSON object: "minecraft:white_dye"; Not a JSON object: "minecraft:white_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:white_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951645}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -121,7 +120,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/lime
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/lime
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:lime_dye"; Second: Not a JSON object: "minecraft:lime_dye"; Not a JSON object: "minecraft:lime_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:lime_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951639}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -137,7 +136,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/light_gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/light_gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_gray_dye"; Second: Not a JSON object: "minecraft:light_gray_dye"; Not a JSON object: "minecraft:light_gray_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:light_gray_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951638}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -153,7 +152,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/christmas
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/christmas
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:snow_block"; Second: Not a JSON object: "minecraft:snow_block"; Not a JSON object: "minecraft:snow_block"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:snow_block","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951649}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -169,7 +168,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/magenta
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/magenta
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:magenta_dye"; Second: Not a JSON object: "minecraft:magenta_dye"; Not a JSON object: "minecraft:magenta_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:magenta_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951640}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -185,7 +184,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/nether
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/nether
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:netherite_scrap"; Second: Not a JSON object: "minecraft:netherite_scrap"; Not a JSON object: "minecraft:netherite_scrap"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:netherite_scrap","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951647}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -201,7 +200,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/ender/end
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/ender/end
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:dragon_head"; Second: Not a JSON object: "minecraft:dragon_head"; Not a JSON object: "minecraft:dragon_head"; Failed to parse either. First: Not a json array: "minecraft:jigsaw"; Second: Not a JSON object: "minecraft:jigsaw"; Not a JSON object: "minecraft:jigsaw"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:jigsaw","addition":"minecraft:dragon_head","result":{"id":"minecraft:jigsaw","components":{"minecraft:custom_model_data":9951632}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -217,7 +216,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/christmas
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/christmas
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:snow_block"; Second: Not a JSON object: "minecraft:snow_block"; Not a JSON object: "minecraft:snow_block"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:snow_block","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951649}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -233,7 +232,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/yellow
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/yellow
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:yellow_dye"; Second: Not a JSON object: "minecraft:yellow_dye"; Not a JSON object: "minecraft:yellow_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:yellow_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951646}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -249,7 +248,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/cyan
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/cyan
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:cyan_dye"; Second: Not a JSON object: "minecraft:cyan_dye"; Not a JSON object: "minecraft:cyan_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:cyan_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951634}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -265,7 +264,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/green
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/green
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:green_dye"; Second: Not a JSON object: "minecraft:green_dye"; Not a JSON object: "minecraft:green_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:green_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951636}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -281,7 +280,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/green
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/green
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:green_dye"; Second: Not a JSON object: "minecraft:green_dye"; Not a JSON object: "minecraft:green_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:green_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951636}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -297,7 +296,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:blue_dye"; Second: Not a JSON object: "minecraft:blue_dye"; Not a JSON object: "minecraft:blue_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:blue_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951632}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -313,7 +312,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/brown
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/brown
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:brown_dye"; Second: Not a JSON object: "minecraft:brown_dye"; Not a JSON object: "minecraft:brown_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:brown_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951633}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -329,7 +328,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/autumnal
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/autumnal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:sweet_berries"; Second: Not a JSON object: "minecraft:sweet_berries"; Not a JSON object: "minecraft:sweet_berries"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:sweet_berries","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951648}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -345,7 +344,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/magenta
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/magenta
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:magenta_dye"; Second: Not a JSON object: "minecraft:magenta_dye"; Not a JSON object: "minecraft:magenta_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:magenta_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951640}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -361,7 +360,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/black
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/black
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:black_dye"; Second: Not a JSON object: "minecraft:black_dye"; Not a JSON object: "minecraft:black_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:black_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951631}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -377,7 +376,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/purple
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/purple
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:purple_dye"; Second: Not a JSON object: "minecraft:purple_dye"; Not a JSON object: "minecraft:purple_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:purple_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951643}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -393,7 +392,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/pink
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/pink
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:pink_dye"; Second: Not a JSON object: "minecraft:pink_dye"; Not a JSON object: "minecraft:pink_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:pink_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951642}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -409,7 +408,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/lime
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/lime
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:lime_dye"; Second: Not a JSON object: "minecraft:lime_dye"; Not a JSON object: "minecraft:lime_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:lime_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951639}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -425,7 +424,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/red
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/red
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:red_dye"; Second: Not a JSON object: "minecraft:red_dye"; Not a JSON object: "minecraft:red_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:red_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951644}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -441,7 +440,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/brown
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/brown
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:brown_dye"; Second: Not a JSON object: "minecraft:brown_dye"; Not a JSON object: "minecraft:brown_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:brown_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951633}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -457,7 +456,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/brown
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/brown
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:brown_dye"; Second: Not a JSON object: "minecraft:brown_dye"; Not a JSON object: "minecraft:brown_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:brown_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951633}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -473,7 +472,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/orange
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/orange
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:orange_dye"; Second: Not a JSON object: "minecraft:orange_dye"; Not a JSON object: "minecraft:orange_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:orange_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951641}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -489,7 +488,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:blue_dye"; Second: Not a JSON object: "minecraft:blue_dye"; Not a JSON object: "minecraft:blue_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:blue_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951632}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -505,7 +504,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/light_blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/light_blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_blue_dye"; Second: Not a JSON object: "minecraft:light_blue_dye"; Not a JSON object: "minecraft:light_blue_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:light_blue_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951637}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -521,7 +520,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/cyan
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/cyan
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:cyan_dye"; Second: Not a JSON object: "minecraft:cyan_dye"; Not a JSON object: "minecraft:cyan_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:cyan_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951634}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -537,7 +536,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/red
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/red
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:red_dye"; Second: Not a JSON object: "minecraft:red_dye"; Not a JSON object: "minecraft:red_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:red_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951644}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -553,7 +552,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/purple
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/purple
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:purple_dye"; Second: Not a JSON object: "minecraft:purple_dye"; Not a JSON object: "minecraft:purple_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:purple_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951643}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -569,7 +568,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/light_blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/light_blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_blue_dye"; Second: Not a JSON object: "minecraft:light_blue_dye"; Not a JSON object: "minecraft:light_blue_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:light_blue_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951637}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -585,7 +584,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/red
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/red
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:red_dye"; Second: Not a JSON object: "minecraft:red_dye"; Not a JSON object: "minecraft:red_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:red_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951644}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -601,7 +600,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/cyan
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/cyan
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:cyan_dye"; Second: Not a JSON object: "minecraft:cyan_dye"; Not a JSON object: "minecraft:cyan_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:cyan_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951634}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -617,7 +616,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/pink
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/pink
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:pink_dye"; Second: Not a JSON object: "minecraft:pink_dye"; Not a JSON object: "minecraft:pink_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:pink_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951642}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -633,7 +632,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/nether
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/nether
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:netherite_scrap"; Second: Not a JSON object: "minecraft:netherite_scrap"; Not a JSON object: "minecraft:netherite_scrap"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:netherite_scrap","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951647}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -649,7 +648,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/green
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/green
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:green_dye"; Second: Not a JSON object: "minecraft:green_dye"; Not a JSON object: "minecraft:green_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:green_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951636}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -665,7 +664,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/brown
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/brown
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:brown_dye"; Second: Not a JSON object: "minecraft:brown_dye"; Not a JSON object: "minecraft:brown_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:brown_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951633}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -681,7 +680,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/red
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/red
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:red_dye"; Second: Not a JSON object: "minecraft:red_dye"; Not a JSON object: "minecraft:red_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:red_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951644}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -697,7 +696,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/orange
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/orange
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:orange_dye"; Second: Not a JSON object: "minecraft:orange_dye"; Not a JSON object: "minecraft:orange_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:orange_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951641}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -713,7 +712,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/yellow
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/yellow
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:yellow_dye"; Second: Not a JSON object: "minecraft:yellow_dye"; Not a JSON object: "minecraft:yellow_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:yellow_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951646}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -729,7 +728,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:gray_dye"; Second: Not a JSON object: "minecraft:gray_dye"; Not a JSON object: "minecraft:gray_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:gray_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951635}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -745,7 +744,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:blue_dye"; Second: Not a JSON object: "minecraft:blue_dye"; Not a JSON object: "minecraft:blue_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:blue_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951632}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -761,7 +760,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/autumnal
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/autumnal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:sweet_berries"; Second: Not a JSON object: "minecraft:sweet_berries"; Not a JSON object: "minecraft:sweet_berries"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:sweet_berries","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951648}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -777,7 +776,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/autumnal
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/autumnal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:sweet_berries"; Second: Not a JSON object: "minecraft:sweet_berries"; Not a JSON object: "minecraft:sweet_berries"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:sweet_berries","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951648}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -793,7 +792,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/purple
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/purple
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:purple_dye"; Second: Not a JSON object: "minecraft:purple_dye"; Not a JSON object: "minecraft:purple_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:purple_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951643}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -809,7 +808,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/light_gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/light_gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_gray_dye"; Second: Not a JSON object: "minecraft:light_gray_dye"; Not a JSON object: "minecraft:light_gray_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:light_gray_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951638}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -825,7 +824,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/black
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/black
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:black_dye"; Second: Not a JSON object: "minecraft:black_dye"; Not a JSON object: "minecraft:black_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:black_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951631}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -841,7 +840,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/light_gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/light_gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_gray_dye"; Second: Not a JSON object: "minecraft:light_gray_dye"; Not a JSON object: "minecraft:light_gray_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:light_gray_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951638}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -857,7 +856,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/lime
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/lime
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:lime_dye"; Second: Not a JSON object: "minecraft:lime_dye"; Not a JSON object: "minecraft:lime_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:lime_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951639}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -873,7 +872,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/ender/normal
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/ender/normal
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:obsidian"; Second: Not a JSON object: "minecraft:obsidian"; Not a JSON object: "minecraft:obsidian"; Failed to parse either. First: Not a json array: "minecraft:jigsaw"; Second: Not a JSON object: "minecraft:jigsaw"; Not a JSON object: "minecraft:jigsaw"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:jigsaw","addition":"minecraft:obsidian","result":{"id":"minecraft:jigsaw","components":{"minecraft:custom_model_data":9951631}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -889,7 +888,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:gray_dye"; Second: Not a JSON object: "minecraft:gray_dye"; Not a JSON object: "minecraft:gray_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:gray_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951635}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -905,7 +904,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/yellow
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/yellow
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:yellow_dye"; Second: Not a JSON object: "minecraft:yellow_dye"; Not a JSON object: "minecraft:yellow_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:yellow_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951646}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -921,7 +920,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/magenta
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/magenta
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:magenta_dye"; Second: Not a JSON object: "minecraft:magenta_dye"; Not a JSON object: "minecraft:magenta_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:magenta_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951640}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -937,7 +936,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/orange
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/orange
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:orange_dye"; Second: Not a JSON object: "minecraft:orange_dye"; Not a JSON object: "minecraft:orange_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:orange_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951641}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -953,7 +952,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/black
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/black
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:black_dye"; Second: Not a JSON object: "minecraft:black_dye"; Not a JSON object: "minecraft:black_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:black_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951631}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -969,7 +968,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/nether
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/nether
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:netherite_scrap"; Second: Not a JSON object: "minecraft:netherite_scrap"; Not a JSON object: "minecraft:netherite_scrap"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:netherite_scrap","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951647}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -985,7 +984,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/lime
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/lime
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:lime_dye"; Second: Not a JSON object: "minecraft:lime_dye"; Not a JSON object: "minecraft:lime_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:lime_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951639}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1001,7 +1000,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/green
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/green
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:green_dye"; Second: Not a JSON object: "minecraft:green_dye"; Not a JSON object: "minecraft:green_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:green_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951636}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1017,7 +1016,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/white
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/white
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:white_dye"; Second: Not a JSON object: "minecraft:white_dye"; Not a JSON object: "minecraft:white_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:white_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951645}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1033,7 +1032,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/light_gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/light_gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_gray_dye"; Second: Not a JSON object: "minecraft:light_gray_dye"; Not a JSON object: "minecraft:light_gray_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:light_gray_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951638}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1049,7 +1048,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/yellow
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/yellow
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:yellow_dye"; Second: Not a JSON object: "minecraft:yellow_dye"; Not a JSON object: "minecraft:yellow_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:yellow_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951646}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1065,7 +1064,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:blue_dye"; Second: Not a JSON object: "minecraft:blue_dye"; Not a JSON object: "minecraft:blue_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:blue_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951632}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1081,7 +1080,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/pink
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/pink
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:pink_dye"; Second: Not a JSON object: "minecraft:pink_dye"; Not a JSON object: "minecraft:pink_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:pink_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951642}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1097,7 +1096,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/light_blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/light_blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_blue_dye"; Second: Not a JSON object: "minecraft:light_blue_dye"; Not a JSON object: "minecraft:light_blue_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:light_blue_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951637}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1113,7 +1112,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/christmas
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/christmas
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:snow_block"; Second: Not a JSON object: "minecraft:snow_block"; Not a JSON object: "minecraft:snow_block"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:snow_block","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951649}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1129,7 +1128,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/gray
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:gray_dye"; Second: Not a JSON object: "minecraft:gray_dye"; Not a JSON object: "minecraft:gray_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:gray_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951635}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1145,7 +1144,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/orange
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/orange
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:orange_dye"; Second: Not a JSON object: "minecraft:orange_dye"; Not a JSON object: "minecraft:orange_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:orange_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951641}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1161,7 +1160,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/light_blue
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/light_blue
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:light_blue_dye"; Second: Not a JSON object: "minecraft:light_blue_dye"; Not a JSON object: "minecraft:light_blue_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:light_blue_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951637}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1177,7 +1176,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/white
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/white
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:white_dye"; Second: Not a JSON object: "minecraft:white_dye"; Not a JSON object: "minecraft:white_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:white_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951645}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1193,7 +1192,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/cyan
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/cyan
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:cyan_dye"; Second: Not a JSON object: "minecraft:cyan_dye"; Not a JSON object: "minecraft:cyan_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:cyan_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951634}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1209,7 +1208,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/magenta
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/2/magenta
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:magenta_dye"; Second: Not a JSON object: "minecraft:magenta_dye"; Not a JSON object: "minecraft:magenta_dye"; Failed to parse either. First: Not a json array: "minecraft:chain_command_block"; Second: Not a JSON object: "minecraft:chain_command_block"; Not a JSON object: "minecraft:chain_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:chain_command_block","addition":"minecraft:magenta_dye","result":{"id":"minecraft:chain_command_block","components":{"minecraft:custom_model_data":9951640}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1225,7 +1224,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/nether
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/nether
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:netherite_scrap"; Second: Not a JSON object: "minecraft:netherite_scrap"; Not a JSON object: "minecraft:netherite_scrap"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:netherite_scrap","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951647}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1241,7 +1240,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/purple
+[10:55:59] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/purple
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:purple_dye"; Second: Not a JSON object: "minecraft:purple_dye"; Not a JSON object: "minecraft:purple_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:purple_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951643}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1257,7 +1256,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:crafting_table/ender
+[10:56:00] [ServerMain/ERROR]: Parsing error loading recipe backpacks:crafting_table/ender
 com.google.gson.JsonParseException: Map entry 'x' : Failed to parse either. First: Not a json array: "minecraft:leather"; Second: Not a JSON object: "minecraft:leather"; Not a JSON object: "minecraft:leather"
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1273,7 +1272,7 @@ com.google.gson.JsonParseException: Map entry 'x' : Failed to parse either. Firs
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/christmas
+[10:56:00] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/christmas
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:snow_block"; Second: Not a JSON object: "minecraft:snow_block"; Not a JSON object: "minecraft:snow_block"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:snow_block","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951649}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1289,7 +1288,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/white
+[10:56:00] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/3/white
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:white_dye"; Second: Not a JSON object: "minecraft:white_dye"; Not a JSON object: "minecraft:white_dye"; Failed to parse either. First: Not a json array: "minecraft:repeating_command_block"; Second: Not a JSON object: "minecraft:repeating_command_block"; Not a JSON object: "minecraft:repeating_command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:repeating_command_block","addition":"minecraft:white_dye","result":{"id":"minecraft:repeating_command_block","components":{"minecraft:custom_model_data":9951645}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1305,7 +1304,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/pink
+[10:56:00] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/1/pink
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:pink_dye"; Second: Not a JSON object: "minecraft:pink_dye"; Not a JSON object: "minecraft:pink_dye"; Failed to parse either. First: Not a json array: "minecraft:command_block"; Second: Not a JSON object: "minecraft:command_block"; Not a JSON object: "minecraft:command_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:command_block","addition":"minecraft:pink_dye","result":{"id":"minecraft:command_block","components":{"minecraft:custom_model_data":9951642}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1321,7 +1320,7 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/gray
+[10:56:00] [ServerMain/ERROR]: Parsing error loading recipe backpacks:smithing/colors/4/gray
 com.google.gson.JsonParseException: Failed to parse either. First: Not a json array: "minecraft:gray_dye"; Second: Not a JSON object: "minecraft:gray_dye"; Not a JSON object: "minecraft:gray_dye"; Failed to parse either. First: Not a json array: "minecraft:structure_block"; Second: Not a JSON object: "minecraft:structure_block"; Not a JSON object: "minecraft:structure_block"; No key template in MapLike[{"type":"minecraft:smithing_transform","base":"minecraft:structure_block","addition":"minecraft:gray_dye","result":{"id":"minecraft:structure_block","components":{"minecraft:custom_model_data":9951635}}}]
 	at com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar:?]
 	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:68) ~[paper-1.21.jar:1.21-130-b1b5d4c]
@@ -1337,90 +1336,90 @@ com.google.gson.JsonParseException: Failed to parse either. First: Not a json ar
 	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:16:50] [ServerMain/INFO]: Loaded 1302 recipes
-[11:16:50] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[11:16:50] [ServerMain/INFO]: Loaded 1483 advancements
-[11:16:50] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:shulker_boxes
-[11:16:51] [Server thread/INFO]: Starting minecraft server version 1.21
-[11:16:51] [Server thread/INFO]: Loading properties
-[11:16:51] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
-[11:16:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[11:16:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[11:16:52] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:16:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[11:16:53] [Server thread/INFO]: Default game type: SURVIVAL
-[11:16:53] [Server thread/INFO]: Generating keypair
-[11:16:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:16:54] [Server thread/INFO]: Using epoll channel type
-[11:16:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[11:16:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[11:16:58] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
-[11:16:58] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/megacraft/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
-[11:17:00] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[11:17:03] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
-[11:17:04] [Server thread/INFO]: [floodgate] Took 4,045ms to boot Floodgate
-[11:17:04] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
-[11:17:04] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
-[11:17:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[11:17:07] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[11:17:10] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
-[11:17:13] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[11:17:13] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[11:17:13] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.4.8
-[11:17:13] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v2.0
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading server plugin PhantomWorlds v2.0.12
-[11:17:13] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.13.0
-[11:17:13] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.7.1
-[11:17:13] [Server thread/INFO]: [Pl3xMap] Loading server plugin Pl3xMap v1.21.4-517
-[11:17:13] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v2.6.1
-[11:17:13] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
-[11:17:13] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.1
-[11:17:13] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.0.23
-[11:17:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Enabling PhantomWorlds v2.0.12
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Starting up Placeholder Registration...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Checking compatibility with server...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Checking for backup directory...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading files...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading file SETTINGS...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading file ADVANCED_SETTINGS...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading file MESSAGES...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Loading file DATA...
-[11:17:13] [Server thread/INFO]: [PhantomWorlds] Registering commands...
-[11:17:14] [Server thread/INFO]: [PhantomWorlds] Registering listeners...
-[11:17:14] [Server thread/INFO]: [PhantomWorlds] Running misc startup procedures...
-[11:17:14] [Server thread/INFO]: [PhantomWorlds] Start-up complete (took 925608298000000ms)
-[11:17:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:17:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:17:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:17:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:17:14] [Server thread/INFO]: Preparing level "world"
-[11:17:15] [Server thread/INFO]: [PhantomWorlds] Loading worlds...
-[11:17:15] [Server thread/INFO]: [PhantomWorlds] Loading managed worlds...
-[11:17:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:17:19] [Server thread/INFO]: Time elapsed: 2924 ms
-[11:17:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[11:17:20] [Server thread/INFO]: Time elapsed: 854 ms
-[11:17:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[11:17:21] [Server thread/INFO]: Time elapsed: 1040 ms
-[11:17:21] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
-[11:17:23] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
-[11:17:23] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[11:17:23] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
-[11:17:25] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.4.8
-[11:17:27] [Server thread/INFO]: [SetHome] Enabling SetHome v2.0
-[11:17:27] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.13.0
-[11:17:38] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
-[11:17:43] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
-[11:17:43] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.7.1
-[11:17:44] [Server thread/INFO]: [CustomNPCs] Loading action registry...
-[11:17:44] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
-[11:17:44] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
-[11:17:44] [Server thread/INFO]: [CustomNPCs] Loading listeners...
-[11:17:44] [Server thread/INFO]: [CustomNPCs] Loading menus!
-[11:17:44] [Server thread/INFO]: [CustomNPCs] Loading commands!
-[11:17:45] [Server thread/INFO]: [Pl3xMap] Enabling Pl3xMap v1.21.4-517
-[11:17:48] [Server thread/ERROR]: Error occurred while enabling Pl3xMap v1.21.4-517 (Is it up to date?)
+[10:56:00] [ServerMain/INFO]: Loaded 1302 recipes
+[10:56:00] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[10:56:00] [ServerMain/INFO]: Loaded 1483 advancements
+[10:56:00] [ServerMain/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:shulker_boxes
+[10:56:00] [Server thread/INFO]: Starting minecraft server version 1.21
+[10:56:00] [Server thread/INFO]: Loading properties
+[10:56:00] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[10:56:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[10:56:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:56:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:56:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[10:56:03] [Server thread/INFO]: Default game type: SURVIVAL
+[10:56:03] [Server thread/INFO]: Generating keypair
+[10:56:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:56:03] [Server thread/INFO]: Using epoll channel type
+[10:56:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[10:56:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[10:56:07] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loading 1 libraries... please wait
+[10:56:07] [Server thread/INFO]: [SpigotLibraryLoader] [CustomNPCs] Loaded library /workspaces/megacraft/servidor_minecraft/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+[10:56:10] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[10:56:14] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[10:56:14] [Server thread/INFO]: [floodgate] Took 4,092ms to boot Floodgate
+[10:56:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.0
+[10:56:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.0 is now loaded. Registering protocol transformers and injecting...
+[10:56:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[10:56:17] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[10:56:19] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[10:56:23] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[10:56:23] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[10:56:23] [Server thread/INFO]: [Origins-Reborn] Loading server plugin Origins-Reborn v2.4.8
+[10:56:23] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v2.0
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Loading server plugin PhantomWorlds v2.0.12
+[10:56:23] [Server thread/INFO]: [InteractionVisualizer] Loading server plugin InteractionVisualizer v1.18.13.0
+[10:56:23] [Server thread/INFO]: [CustomNPCs] Loading server plugin CustomNPCs v1.7.1
+[10:56:23] [Server thread/INFO]: [Pl3xMap] Loading server plugin Pl3xMap v1.21.4-517
+[10:56:23] [Server thread/INFO]: [WildRTP] Loading server plugin WildRTP v2.6.1
+[10:56:23] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.28
+[10:56:23] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.4.1
+[10:56:23] [Server thread/INFO]: [Origins-Fantasy] Loading server plugin Origins-Fantasy v1.0.23
+[10:56:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Enabling PhantomWorlds v2.0.12
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Starting up Placeholder Registration...
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Checking compatibility with server...
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Checking for backup directory...
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Loading files...
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Loading file SETTINGS...
+[10:56:23] [Server thread/INFO]: [PhantomWorlds] Loading file ADVANCED_SETTINGS...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Loading file MESSAGES...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Loading file DATA...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Registering commands...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Registering listeners...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Running misc startup procedures...
+[10:56:24] [Server thread/INFO]: [PhantomWorlds] Start-up complete (took 658510453000000ms)
+[10:56:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:56:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:56:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:56:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:56:24] [Server thread/INFO]: Preparing level "world"
+[10:56:25] [Server thread/INFO]: [PhantomWorlds] Loading worlds...
+[10:56:25] [Server thread/INFO]: [PhantomWorlds] Loading managed worlds...
+[10:56:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:56:29] [Server thread/INFO]: Time elapsed: 2894 ms
+[10:56:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[10:56:30] [Server thread/INFO]: Time elapsed: 1173 ms
+[10:56:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[10:56:30] [Server thread/INFO]: Time elapsed: 482 ms
+[10:56:30] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[10:56:32] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.0
+[10:56:32] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[10:56:32] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[10:56:34] [Server thread/INFO]: [Origins-Reborn] Enabling Origins-Reborn v2.4.8
+[10:56:37] [Server thread/INFO]: [SetHome] Enabling SetHome v2.0
+[10:56:37] [Server thread/INFO]: [InteractionVisualizer] Enabling InteractionVisualizer v1.18.13.0
+[10:56:46] [Server thread/INFO]: [InteractionVisualizer] Opened Sqlite database successfully
+[10:56:51] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been enabled!
+[10:56:51] [Server thread/INFO]: [CustomNPCs] Enabling CustomNPCs v1.7.1
+[10:56:52] [Server thread/INFO]: [CustomNPCs] Loading action registry...
+[10:56:52] [Server thread/INFO]: [CustomNPCs] Loading NPCs!
+[10:56:52] [Server thread/WARN]: [CustomNPCs] Could not find PlaceholderAPI! PlaceholderAPI isn't required, but CustomNPCs does support it.
+[10:56:52] [Server thread/INFO]: [CustomNPCs] Loading listeners...
+[10:56:52] [Server thread/INFO]: [CustomNPCs] Loading menus!
+[10:56:52] [Server thread/INFO]: [CustomNPCs] Loading commands!
+[10:56:53] [Server thread/INFO]: [Pl3xMap] Enabling Pl3xMap v1.21.4-517
+[10:56:57] [Server thread/ERROR]: Error occurred while enabling Pl3xMap v1.21.4-517 (Is it up to date?)
 java.lang.NoSuchMethodError: 'net.minecraft.core.RegistryAccess$Frozen net.minecraft.server.MinecraftServer.ba()'
 	at Pl3xMap-1.21.4-517.jar/net.pl3x.map.bukkit.Pl3xMapImpl.loadBlocks(Pl3xMapImpl.java:173) ~[Pl3xMap-1.21.4-517.jar:?]
 	at Pl3xMap-1.21.4-517.jar/net.pl3x.map.core.Pl3xMap.enable(Pl3xMap.java:211) ~[Pl3xMap-1.21.4-517.jar:?]
@@ -1438,70 +1437,38 @@ java.lang.NoSuchMethodError: 'net.minecraft.core.RegistryAccess$Frozen net.minec
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[11:17:48] [Server thread/INFO]: [Pl3xMap] Disabling Pl3xMap v1.21.4-517
-[11:17:48] [Server thread/INFO]: [Pl3xMap] [WARN] An error occurred with the internal webserver
-[11:17:49] [Server thread/INFO]: [WildRTP] Enabling WildRTP v2.6.1
-[11:17:49] [Server thread/INFO]: [WildRTP] WildRTP by Joni
-[11:17:49] [Server thread/INFO]: [WildRTP] Thank you for using my plugin!
-[11:17:49] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
-[11:17:49] [Thread-9/INFO]: [WildRTP] You are running the latest version!
-[11:17:49] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.1
-[11:17:50] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.23
-[11:17:50] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.1) has been enabled.
-[11:17:50] [Server thread/INFO]: [spark] Starting background profiler...
-[11:17:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:17:51] [Server thread/INFO]: [Geyser-Spigot] 
-[11:17:51] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b732 (git-master-54bdb63)
-[11:17:51] [Server thread/INFO]: [Geyser-Spigot] 
-[11:17:51] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[11:18:05] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
-[11:18:06] [Server thread/INFO]: [Geyser-Spigot] Done (14.548s)! Run /geyser help for help!
-[11:18:06] [Server thread/INFO]: Done preparing level "world" (51.946s)
-[11:18:06] [Server thread/INFO]: Running delayed init tasks
-[11:18:06] [Server thread/INFO]: Done (102.560s)! For help, type "help"
-[11:18:06] [Server thread/INFO]: Timings Reset
-[11:18:06] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[11:18:06] [Craft Scheduler Thread - 7 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
-[11:18:07] [Craft Scheduler Thread - 7 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
-[11:18:16] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
-[11:18:18] [Server thread/INFO]: Reemolke joined the game
-[11:18:18] [Server thread/INFO]: Reemolke[/127.133.7.121:50471] logged in with entity id 66 at ([world]-220.05189726763797, 86.23152379758702, 458.1611222695518)
-[11:18:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2683ms or 53 ticks behind
-[11:18:23] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 24160aaf-7fbe-41a4-b3a3-252f3d56bdd9, mapped to Cow['Cow'/297, uuid='24160aaf-7fbe-41a4-b3a3-252f3d56bdd9', l='ServerLevel[world]', x=-360.79, y=120.00, z=602.14, cpos=[-23, 37], tl=6520, v=true], can't add Cow['Cow'/317, uuid='24160aaf-7fbe-41a4-b3a3-252f3d56bdd9', l='ServerLevel[world]', x=-370.19, y=122.00, z=610.48, cpos=[-24, 38], tl=9168, v=false]
-[11:18:40] [Server thread/INFO]: Reemolke issued server command: /home
-[11:18:44] [Server thread/INFO]: Reemolke issued server command: /home Reemolke
-[11:19:12] [Server thread/INFO]: Reemolke lost connection: Disconnected
-[11:19:12] [Server thread/INFO]: Reemolke left the game
-[11:19:50] [User Authenticator #1/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
-[11:19:50] [Server thread/INFO]: Reemolke joined the game
-[11:19:50] [Server thread/INFO]: Reemolke[/127.133.7.121:55443] logged in with entity id 435 at ([world]-246.5576118060522, 80.0, 408.5376675083723)
-[11:20:02] [Server thread/INFO]: Reemolke issued server command: /gamemode creative
-[11:20:02] [Server thread/INFO]: [Reemolke: Set own game mode to Creative Mode]
-[11:20:19] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SandSubset2596
-[11:20:19] [localSession-7-2/INFO]: [Geyser-Spigot] SandSubset2596 (logged in as: SandSubset2596) has connected to the Java server
-[11:20:19] [Server thread/INFO]: [floodgate] Floodgate player logged in as .SandSubset2596 joined (UUID: 00000000-0000-0000-0009-01f1d729612b)
-[11:20:20] [Server thread/INFO]: .SandSubset2596 joined the game
-[11:20:20] [Server thread/INFO]: .SandSubset2596[/127.0.0.1:0] logged in with entity id 918 at ([world]-689.47656, 63.0, 229.3)
-[11:20:50] [Server thread/INFO]: Reemolke issued server command: /sethome casa
-[11:20:57] [Server thread/INFO]: Reemolke issued server command: /gamemode survival
-[11:20:57] [Server thread/INFO]: [Reemolke: Set own game mode to Survival Mode]
-[11:21:14] [Server thread/INFO]: Reemolke issued server command: /wildtp Reemolke
-[11:21:17] [Server thread/INFO]: Reemolke issued server command: /wildtp Reemolke
-[11:23:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
-[11:24:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2688ms or 53 ticks behind
-[11:24:59] [Server thread/INFO]: Reemolke issued server command: /home casa
-[11:26:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Reemolke> a
-[11:33:09] [Server thread/INFO]: Reemolke issued server command: /weather clear
-[11:33:09] [Server thread/INFO]: [Reemolke: Set the weather to clear]
-[11:35:24] [Server thread/INFO]: Reemolke has made the advancement [Sweet Dreams]
-[11:35:27] [Server thread/INFO]: .SandSubset2596 has made the advancement [Sweet Dreams]
-[11:41:57] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
-[11:42:30] [Server thread/INFO]: Reemolke issued server command: /tp Reemolke .SandSubset2596
-[11:42:30] [Server thread/INFO]: [Reemolke: Teleported Reemolke to .SandSubset2596]
-[11:48:33] [Server thread/INFO]: Reemolke issued server command: /function backpacks:bp/summon/id with storage backpacks:blacklisted_items
-[11:48:33] [Server thread/INFO]: [Reemolke: Running function backpacks:bp/summon/id]
-[11:48:49] [Server thread/WARN]: .SandSubset2596 moved wrongly!
-[11:49:55] [Server thread/INFO]: Reemolke issued server command: /datapack list
-[11:50:05] [Server thread/INFO]: Reemolke issued server command: /reload
-[11:50:05] [Server thread/INFO]: Reemolke: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
-[11:56:03] [Server thread/WARN]: .SandSubset2596 moved wrongly!
+[10:56:57] [Server thread/INFO]: [Pl3xMap] Disabling Pl3xMap v1.21.4-517
+[10:56:57] [Server thread/INFO]: [Pl3xMap] [WARN] An error occurred with the internal webserver
+[10:56:57] [Server thread/INFO]: [WildRTP] Enabling WildRTP v2.6.1
+[10:56:57] [Server thread/INFO]: [WildRTP] WildRTP by Joni
+[10:56:57] [Server thread/INFO]: [WildRTP] Thank you for using my plugin!
+[10:56:57] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.28
+[10:56:57] [Thread-9/INFO]: [WildRTP] You are running the latest version!
+[10:56:58] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.4.1
+[10:56:59] [Server thread/INFO]: [Origins-Fantasy] Enabling Origins-Fantasy v1.0.23
+[10:56:59] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.4.1) has been enabled.
+[10:56:59] [Server thread/INFO]: [spark] Starting background profiler...
+[10:57:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:57:01] [Server thread/INFO]: [Geyser-Spigot] 
+[10:57:01] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b732 (git-master-54bdb63)
+[10:57:01] [Server thread/INFO]: [Geyser-Spigot] 
+[10:57:01] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[10:57:15] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[10:57:15] [Server thread/INFO]: [Geyser-Spigot] Done (13.753s)! Run /geyser help for help!
+[10:57:15] [Server thread/INFO]: Done preparing level "world" (51.288s)
+[10:57:15] [Server thread/INFO]: Running delayed init tasks
+[10:57:15] [Server thread/INFO]: Done (104.693s)! For help, type "help"
+[10:57:15] [Server thread/INFO]: Timings Reset
+[10:57:15] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[10:57:15] [Craft Scheduler Thread - 7 - InteractionVisualizer/INFO]: [InteractionVisualizer] Downloading and extracting latest Language files...
+[10:57:16] [Craft Scheduler Thread - 7 - InteractionVisualizer/INFO]: [InteractionVisualizer] Sucessfully downloaded the latest Language files!
+[10:57:32] [epollEventLoopGroup-4-1/INFO]: [Geyser-Spigot] Player connected with username SandSubset2596
+[10:57:32] [localSession-7-2/INFO]: [Geyser-Spigot] SandSubset2596 (logged in as: SandSubset2596) has connected to the Java server
+[10:57:33] [Server thread/INFO]: [floodgate] Floodgate player logged in as .SandSubset2596 joined (UUID: 00000000-0000-0000-0009-01f1d729612b)
+[10:57:34] [Server thread/INFO]: .SandSubset2596 joined the game
+[10:57:35] [Server thread/INFO]: .SandSubset2596[/127.0.0.1:0] logged in with entity id 33 at ([world]-678.1846313476562, 62.23747863769531, 233.70211791992188)
+[10:57:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
+[10:57:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
+[10:57:54] [User Authenticator #0/INFO]: UUID of player Reemolke is 0d9b9754-e9f1-3214-94ca-47b62b0a8587
+[10:57:55] [Server thread/INFO]: Reemolke joined the game
+[10:57:55] [Server thread/INFO]: Reemolke[/127.133.7.121:35291] logged in with entity id 421 at ([world]-689.6797124815898, 64.0, 231.0278600691214)
